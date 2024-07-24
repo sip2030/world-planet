@@ -1,0 +1,182 @@
+@media(max-width:450px) {
+
+    
+    
+  
+    
+    header{
+        padding: 10px 20px;
+    }
+    nav{
+        width: 80%;
+        display: flex;
+        justify-content: flex-end;
+        align-items: center;
+        gap: 20px;
+    }
+    nav a{
+        font-size: 13px;
+    }
+    
+    #about h2{
+        font-size: 35px;
+    }
+    
+    #about article{
+        padding: 50px 30px;
+        flex-direction: column;
+        gap: 40px;
+    }
+    
+    #about article img{
+        width: 70%;
+        object-fit: cover;
+    }
+    
+    #about article div{
+        width: 100%;
+        gap: 30px;
+    }
+    
+    #about article div p{
+        font-size: 18px;
+        font-weight: 200;
+        text-align: justify;
+    }
+    
+    
+    
+    #astro h2{
+        font-size: 40px;
+    }
+    
+    #astro article{
+        padding: 50px;
+        gap: 20px;
+        justify-content: center;
+        
+    }
+    
+    
+    #astro article img{
+        width: 100px;
+        height: 100px;
+    }
+    
+   
+    
+    
+    #contact article{
+        flex-direction: column;
+        gap: 40px;
+
+    }
+    
+    #contact article div{
+        width: 100%;
+        
+    }
+    
+    #contact article div p{
+        justify-content: center;
+        align-items: center;
+    }
+    
+    #contact article form{
+        width: 100%;
+    }
+    
+    #contact article form input, textarea{
+        width: 100%;
+        padding: 15px 20px;
+        border: 1px solid rgb(206, 206, 206);
+        border-radius: 5px;
+        font-size: 18px;
+        outline: none;
+    }
+    
+    #contact article form input:focus,textarea:focus{
+        border-color: darkorange;
+    }
+    
+    #contact article form button{
+        width: fit-content;
+        padding: 15px 40px;
+        background-color: darkorange;
+        color: white;
+        font-size: 20px;
+        cursor: pointer;
+        border: none;
+        transition: 1s;
+        border-radius: 5px;
+    }
+    
+    #contact article form button:hover{
+        background-color: black;
+    }
+    
+    footer{
+        width: 100%;
+        padding: 20px 0;
+        display: flex;
+        flex-direction: column;
+        justify-content: flex-start;
+        align-items: center;
+        background-color: black;
+        color: white;
+    }
+    
+    footer p{
+        display: flex;
+        font-size: 11px;
+        width: 100%;
+        justify-content: center;
+        align-items: center; 
+    }
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+}
